@@ -6,7 +6,7 @@ function Home() {
     const { user } = userContext
     return (
         <>
-        <h1>Bienvenidos!!</h1>
+        <h1>Bienvenido!! {user} </h1>
         </>
     )
 
